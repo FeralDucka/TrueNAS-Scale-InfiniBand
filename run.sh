@@ -16,7 +16,7 @@ chmod +x /usr/bin/dpkg
 
 # Install necessary software
 apt update
-apt install mstflint opensm infiniband-diags
+apt install -y mstflint opensm infiniband-diags
 
 # -----------------------------------------------------------------------------#
 
